@@ -1,0 +1,37 @@
+body {
+  background: #e55c8a;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  color: aliceblue;
+}
+
+main {
+  background: #3c434c;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  min-height: 550px;
+  min-width: 50%;
+}
+
+#lista-tarefas {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 256px;
+}
+
+h1,
+#input-area {
+  align-self: center;
+}
+
+:checked + label {
+  color: lightgray;
+  text-decoration: line-through;
+}
+
+div {
+  margin-top: 5px;
+}
